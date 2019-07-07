@@ -3,7 +3,7 @@ Google Home + Nature Remoで室温を取得するサーバーアプリ
 
 ## Document
 
-- https://qiita.com/yyu/41d398e1abfe1fb51d8d
+- https://qiita.com/yyu/items/41d398e1abfe1fb51d8d
 
 ## How to use
 

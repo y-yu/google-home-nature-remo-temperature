@@ -1,0 +1,14 @@
+version: '3.2'
+services:
+  google-home-nature-remo-temprature:
+    image: google-home-nature-remo-temprature
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      - "PORT=5000"
+      - "BASIC_AUTH_USERNAM=user"
+      - "BASIC_AUTH_PASSWORD=password"
+      - "NATURE_REMO_TOKEN=foobar"
+    ports:
+      - "5000:5000"
